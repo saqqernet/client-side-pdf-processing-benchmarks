@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <base target="_blank" />
   <title>Client-Side PDF Processing Engine &amp; Benchmarks (2026) — Utilvo</title>
-  <meta name="description" content="Open-source architectural whitepaper, WebAssembly PDF benchmarks, and zero-upload browser PDF processing tools by Utilvo." />
+  <meta name="description" content="Open-source architectural whitepaper, WebAssembly PDF benchmarks, DOI citations, and zero-upload browser PDF processing tools by Utilvo." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://huggingface.co/spaces/utilvo/pdf-tools" />
   <link rel="alternate" type="application/atom+xml" title="Utilvo PDF Architecture Feed" href="https://utilvo-pdf-tools.static.hf.space/feed.xml" />
@@ -17,8 +17,31 @@
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web Browser (WebAssembly)",
     "url": "https://utilvo.com/pdf-tools",
+    "sameAs": [
+      "https://www.wikidata.org/wiki/Q141564309",
+      "https://en.wikipedia.org/wiki/User:Islamgamalayoub",
+      "https://doi.org/10.5281/zenodo.22975427",
+      "https://doi.org/10.6084/m9.figshare.34003734",
+      "https://www.academia.edu/176272352/Privacy_Preserving_Client_Side_Information_Processing_A_Browser_Based_Architecture_for_Local_Data_Analysis_and_Secure_File_Handling",
+      "https://gitlab.com/utilvo/client-side-pdf-benchmarks",
+      "https://archive.org/details/iso32000-wasm-document-pipeline-study-2026",
+      "https://huggingface.co/datasets/utilvo/client-side-pdf-processing-benchmarks"
+    ],
+    "citation": [
+      "https://doi.org/10.5281/zenodo.22975427",
+      "https://doi.org/10.6084/m9.figshare.34003734",
+      "https://www.academia.edu/176272352/Privacy_Preserving_Client_Side_Information_Processing_A_Browser_Based_Architecture_for_Local_Data_Analysis_and_Secure_File_Handling"
+    ],
     "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-    "author": { "@type": "Organization", "name": "Utilvo", "url": "https://utilvo.com" }
+    "author": {
+      "@type": "Organization",
+      "name": "Utilvo",
+      "url": "https://utilvo.com",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q141564309",
+        "https://en.wikipedia.org/wiki/User:Islamgamalayoub"
+      ]
+    }
   }
   </script>
   <style>
@@ -30,6 +53,7 @@
     h2 { color: var(--accent); border-bottom: 1px solid #334155; padding-bottom: 8px; margin-top: 32px; }
     .btn { display: inline-block; background: var(--accent); color: #0f172a; font-weight: 700; text-decoration: none; padding: 10px 18px; border-radius: 8px; margin: 6px 8px 6px 0; font-size: 0.92rem; }
     .btn-secondary { background: #334155; color: #f8fafc; }
+    .btn-academic { background: #0f766e; color: #f8fafc; border: 1px solid #14b8a6; }
     .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin-top: 16px; }
     .card { background: var(--card); border: 1px solid #334155; border-radius: 12px; padding: 18px; }
     .card a { color: var(--accent); font-weight: 600; text-decoration: none; font-size: 1.05rem; }
@@ -46,10 +70,19 @@
       <p>Zero-upload, hardware-accelerated PDF processing powered by WebAssembly, Web Workers, and OffscreenCanvas. All document operations execute locally in browser memory.</p>
       <div>
         <a class="btn" href="https://utilvo.com/pdf-tools">Launch Utilvo PDF Tools Suite</a>
+        <a class="btn btn-secondary" href="https://archive.org/download/iso32000-wasm-document-pipeline-study-2026/utilvo-client-side-pdf-architecture-2026.pdf">Internet Archive PDF (DA 94)</a>
+        <a class="btn btn-secondary" href="https://archive.org/details/iso32000-wasm-document-pipeline-study-2026">Archive.org Study Record</a>
+        <a class="btn btn-secondary" href="https://gitlab.com/utilvo/client-side-pdf-benchmarks/-/raw/main/utilvo-client-side-pdf-architecture-2026.pdf">GitLab Direct PDF (DA 92)</a>
+        <a class="btn btn-secondary" href="https://gitlab.com/utilvo/client-side-pdf-benchmarks">GitLab Open-Source Repo</a>
         <a class="btn btn-secondary" href="https://utilvo-pdf-tools.static.hf.space/utilvo-client-side-pdf-architecture-2026.pdf">Read Full Whitepaper (Hugging Face PDF)</a>
         <a class="btn btn-secondary" href="https://mozilla.github.io/pdf.js/web/viewer.html?file=https://saqqernet.github.io/client-side-pdf-processing-benchmarks/utilvo-client-side-pdf-architecture-2026.pdf">Open in Mozilla PDF.js Viewer</a>
         <a class="btn btn-secondary" href="https://saqqernet.github.io/client-side-pdf-processing-benchmarks/utilvo-client-side-pdf-architecture-2026.pdf">GitHub Pages PDF Mirror</a>
         <a class="btn btn-secondary" href="https://cdn.jsdelivr.net/gh/saqqernet/client-side-pdf-processing-benchmarks@main/utilvo-client-side-pdf-architecture-2026.pdf">jsDelivr CDN PDF Mirror</a>
+        <a class="btn btn-academic" href="https://doi.org/10.5281/zenodo.22975427">Zenodo DOI (10.5281/zenodo.22975427)</a>
+        <a class="btn btn-academic" href="https://doi.org/10.6084/m9.figshare.34003734">Figshare DOI (10.6084/m9.figshare.34003734)</a>
+        <a class="btn btn-academic" href="https://www.academia.edu/176272352/Privacy_Preserving_Client_Side_Information_Processing_A_Browser_Based_Architecture_for_Local_Data_Analysis_and_Secure_File_Handling">Academia.edu Research Paper</a>
+        <a class="btn btn-academic" href="https://www.wikidata.org/wiki/Q141564309">Wikidata Entity (Q141564309)</a>
+        <a class="btn btn-academic" href="https://en.wikipedia.org/wiki/User:Islamgamalayoub">Wikipedia Reference Page</a>
       </div>
     </div>
 
@@ -107,9 +140,14 @@
 
     <footer>
       Published by <a href="https://utilvo.com">Utilvo</a> &bull;
-      <a href="https://huggingface.co/datasets/utilvo/client-side-pdf-processing-benchmarks">Benchmark Dataset</a> &bull;
-      <a href="https://huggingface.co/utilvo/client-side-pdf-engine">Model Architecture Card</a> &bull;
-      <a href="https://utilvo-pdf-tools.static.hf.space/utilvo-client-side-pdf-architecture-2026.pdf">Direct PDF Whitepaper</a>
+      <a href="https://doi.org/10.5281/zenodo.22975427">Zenodo DOI</a> &bull;
+      <a href="https://doi.org/10.6084/m9.figshare.34003734">Figshare DOI</a> &bull;
+      <a href="https://www.academia.edu/176272352/Privacy_Preserving_Client_Side_Information_Processing_A_Browser_Based_Architecture_for_Local_Data_Analysis_and_Secure_File_Handling">Academia.edu</a> &bull;
+      <a href="https://www.wikidata.org/wiki/Q141564309">Wikidata (Q141564309)</a> &bull;
+      <a href="https://en.wikipedia.org/wiki/User:Islamgamalayoub">Wikipedia</a> &bull;
+      <a href="https://huggingface.co/datasets/utilvo/client-side-pdf-processing-benchmarks">Dataset</a> &bull;
+      <a href="https://gitlab.com/utilvo/client-side-pdf-benchmarks">GitLab</a> &bull;
+      <a href="https://archive.org/details/iso32000-wasm-document-pipeline-study-2026">Internet Archive</a>
     </footer>
   </div>
 </body>
