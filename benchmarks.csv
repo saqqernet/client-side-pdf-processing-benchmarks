@@ -1,0 +1,11 @@
+tool_name,category,operation,avg_latency_ms,peak_memory_mb,network_bytes_uploaded,reference_url
+Advanced PDF Editor Studio,PDF Interactive,Canvas Annotation & Sign,142,68.4,0,https://utilvo.com/pdf-tools/advanced-editor
+Find and Replace PDF Text,PDF Text Processing,Unicode & Arabic Shaping Replace,118,54.2,0,https://utilvo.com/pdf-tools/find-and-replace-pdf-text
+Whiteout PDF,PDF Privacy,Permanent Area Redaction,95,48.0,0,https://utilvo.com/pdf-tools/whiteout-pdf
+Draw on PDF,PDF Annotation,Freehand & Highlighter Ink,88,51.5,0,https://utilvo.com/pdf-tools/draw-on-pdf
+Add Image to PDF,PDF Stamping,High-DPI Image Overlay,104,62.1,0,https://utilvo.com/pdf-tools/add-image-to-pdf
+Insert Blank Page PDF,PDF Page Assembly,Lined/Grid/Dotted Page Injection,76,41.8,0,https://utilvo.com/pdf-tools/insert-blank-page-pdf
+Change PDF Background Color,PDF Accessibility,Multiply Blend Tint & Dark Mode,164,74.0,0,https://utilvo.com/pdf-tools/change-pdf-background-color
+Merge PDF,PDF Structure,Zero-Upload Document Merge,62,39.4,0,https://utilvo.com/pdf-tools/merge-pdf
+Split PDF,PDF Structure,Instant Page Range Extraction,58,36.2,0,https://utilvo.com/pdf-tools/split-pdf
+Compress PDF,PDF Optimization,Client-Side Stream Compression,210,82.5,0,https://utilvo.com/pdf-tools/compress-pdf
